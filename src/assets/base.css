@@ -72,6 +72,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+section {
+  margin: 2rem 0px;
+  width: 100%;
+}
 /* font-family: 'Playfair Display', serif; */
 h1 {
   font-size: 80px !important;
@@ -82,8 +86,9 @@ button {
   height: fit-content;
   width: fit-content;
   border-radius: 4px;
-  padding: 8px 16px !important;
+  padding: 12px 24px !important;
   background-color: #102C03 !important;
   color: white !important;
+  font-weight: 600 !important;
 }
 
