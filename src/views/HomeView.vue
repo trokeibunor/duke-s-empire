@@ -29,8 +29,9 @@ import serviceSection from '../components/serviceSection.vue';
       </div>
     </div>
    </section>
-   <serviceSection/>
+   <!-- -->
   </main>
+  <serviceSection/> 
 </template>
 
 <style>
