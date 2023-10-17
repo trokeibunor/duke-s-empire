@@ -2,6 +2,7 @@
 import NavBar from '../components/NavBar.vue';
 import serviceSection from '../components/serviceSection.vue';
 import aboutSection from '../components/aboutSection.vue';
+import messageSection from '../components/messageSection.vue';
 </script>
 
 <template>
@@ -34,6 +35,7 @@ import aboutSection from '../components/aboutSection.vue';
   </main>
   <serviceSection/> 
   <aboutSection/>
+  <messageSection/>
 </template>
 
 <style>

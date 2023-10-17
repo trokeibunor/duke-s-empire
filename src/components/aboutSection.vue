@@ -37,6 +37,10 @@ section{
         align-items: center;
         .img_holder {
             width: 60%;
+            img {
+                width: 90%;
+                height: 90%;
+            }
         }
         .text_holder {
             width: 40%;
