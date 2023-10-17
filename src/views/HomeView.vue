@@ -1,6 +1,7 @@
 <script setup>
 import NavBar from '../components/NavBar.vue';
 import serviceSection from '../components/serviceSection.vue';
+import aboutSection from '../components/aboutSection.vue';
 </script>
 
 <template>
@@ -32,6 +33,7 @@ import serviceSection from '../components/serviceSection.vue';
    <!-- -->
   </main>
   <serviceSection/> 
+  <aboutSection/>
 </template>
 
 <style>

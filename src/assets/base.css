@@ -73,7 +73,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 section {
-  margin: 2rem 0px;
+  /* margin: 2rem 0px; */
   width: 100%;
 }
 /* font-family: 'Playfair Display', serif; */
