@@ -3,6 +3,8 @@ import NavBar from '../components/NavBar.vue';
 import serviceSection from '../components/serviceSection.vue';
 import aboutSection from '../components/aboutSection.vue';
 import messageSection from '../components/messageSection.vue';
+import ourTestimonial from '../components/ourTestimonials.vue';
+import footerSection from '../components/footerSection.vue';
 </script>
 
 <template>
@@ -36,6 +38,8 @@ import messageSection from '../components/messageSection.vue';
   <serviceSection/> 
   <aboutSection/>
   <messageSection/>
+  <ourTestimonial/>
+  <footerSection/>
 </template>
 
 <style>
