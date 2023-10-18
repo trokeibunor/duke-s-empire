@@ -26,6 +26,7 @@
 </script>
 
 <style lang="scss" scoped>
+@import "../assets/variables.scss";
 footer {
     width: 100%;
     border-top-right-radius: 4rem;
@@ -80,6 +81,15 @@ footer {
         }
         .map {
             width: 50%;
+        }
+        @media #{$media-mobile} {
+            flex-direction: column;
+          .text-side {
+            width: 100%;
+            .subscription-box,p {
+                width: 100%
+            }
+          }
         }
     }
 }

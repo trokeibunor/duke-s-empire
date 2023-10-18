@@ -63,20 +63,23 @@
 </script>
 
 <style lang="scss" scoped>
+@import "../assets/variables.scss";
 section {
     width: 100%;
     background-image: url('../assets/images/service_background.png');
     background-repeat: no-repeat;
     padding: 2rem 0px;
     position: relative;
-    overflow-x: hidden;
-    overflow-y: visible;
+    overflow: hidden;
     .display_img {
         position: absolute;
         right: -5%;
         width: 25%;
         top: 10%;
-        z-index: -1
+        z-index: -1;
+        @media #{$media-mobile} {
+            display: none;
+        }
     }
     .intro_header {
         display: flex;
@@ -93,6 +96,11 @@ section {
         h3:nth-child(2) {
             font-weight: 300;
         }
+        @media #{$media-mobile} {
+            h3 {
+                font-size: 24px;
+            }
+        }
     }
     .service_slider {
         display: flex;
@@ -100,9 +108,17 @@ section {
         width: 100%;
         margin: 1.5rem;
         position: relative;
-        overflow-x: hidden;
+        overflow: hidden;
+        @media #{$media-mobile} {
+            width: 95%;
+            margin: 1rem auto;
+            overflow: hidden;
+        }
         .slider_controller{
-            width: 25%
+            width: 25%;
+            @media #{$media-mobile} {
+                display: none;
+            }
         }
         .sliders {
             width: 75%;
@@ -110,10 +126,10 @@ section {
             flex-direction: row;
             gap: 1rem;
             position: relative;
-            overflow-x: hidden;
+            overflow: scroll;
             .slider {
-                width: 20rem;
-                min-height: 12rem;
+                // width: 20rem;
+                // min-height: 12rem;
                 padding: 0.7rem;
                 border-radius: 1.25rem;
                 background: #FFF;
@@ -125,6 +141,14 @@ section {
                     line-height: 120%;
                 }
 
+            }
+            @media #{$media-mobile} {
+                width: 100%;
+                .slider {
+                    .content{
+                        width: 12.5rem
+                    }
+                }
             }
         }
     }

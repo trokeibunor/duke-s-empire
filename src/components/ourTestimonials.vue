@@ -40,6 +40,7 @@
 </script>
 
 <style lang="scss" scoped>
+@import "../assets/variables.scss";
 section {
     width: 100%;
     padding: 1.5rem 0px;
@@ -60,6 +61,11 @@ section {
             }
             h3:nth-child(2) {
                 font-weight: 300;
+            }
+            @media #{$media-mobile} {
+                h3 {
+                    font-size: 24px;
+                }
             }
         }
         .testimonial_row {
@@ -92,6 +98,12 @@ section {
                 align-items: center;
                 gap: 2px;
               }
+            }
+            @media #{$media-mobile} {
+                flex-direction: column;
+              .testimonial_box {
+                    width: 100%;
+                }
             }
         }
     }

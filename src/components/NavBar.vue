@@ -38,6 +38,7 @@
 </script>
 
 <style lang="scss" scoped>
+@import "../assets/variables.scss";
 nav{
     width: 100%;
     .nav_menu {
@@ -61,6 +62,21 @@ nav{
         font-family: 'Playfair Display', serif;
         font-size: 18px;
         font-weight: 600;
+    }
+    // responsiveness
+    @media #{$media-mobile} {
+        background-color: #ffffff46;
+        padding: 0.5rem 0;
+        .nav_menu {
+            display: none;
+        }
+        .social_icons {
+            display: none;
+        }
+        .nav_logo {
+            font-size: 24px;
+            font-weight: 700;
+        }
     }
 }
 </style>

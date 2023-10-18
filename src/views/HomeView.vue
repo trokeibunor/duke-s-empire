@@ -42,7 +42,8 @@ import footerSection from '../components/footerSection.vue';
   <footerSection/>
 </template>
 
-<style>
+<style lang="scss" scoped>
+@import "../assets/variables.scss";
 main {
   position: relative;
   overflow: hidden;
@@ -52,6 +53,10 @@ main {
     z-index: -1;
     top: -20%;
     right: -15%;
+    @media #{$media-mobile} {
+      top: -20%;
+      right: -70%;
+    }
   }
   .hero {
     height: 95dvh;
@@ -74,6 +79,29 @@ main {
         gap: 1rem;
         .sub_text {
           width: 80%;
+        }
+      }
+      @media #{$media-mobile} {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 0px;
+        .image_section{
+          height: 50%;
+          img{
+            margin-top: 0.5rem;
+            width: 100%;
+          }
+        }
+        .text_section {
+          height: 50%;
+          .main_text {
+            h1 {
+              font-size: 32px !important;
+            }
+          }
+          .sub_text {
+            width: 100%;
+          }
         }
       }
     }

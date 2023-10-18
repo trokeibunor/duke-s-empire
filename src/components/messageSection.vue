@@ -79,6 +79,7 @@
 </script>
 
 <style lang="scss" scoped>
+@import "../assets/variables.scss";
 section {
     background-image: url('../assets/images/message_background.png');
     background-position: right top;
@@ -101,6 +102,13 @@ section {
                 h3:nth-child(2) {
                     font-weight: 300;
                 }
+            @media #{$media-mobile} {
+                flex-direction: column;
+                gap: 1rem;
+                .r_text br {
+                    display: none;
+                }
+            }
         }
         .form {
             width: 45%;
@@ -112,6 +120,14 @@ section {
                 .label {
                     font-size: 0.75rem;
                     font-weight: 600
+                }
+                @media #{$media-mobile} {
+                    .form-row{
+                        width: 100%;
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        gap: 0px
+                    }
                 }
             }
             .form-message-control {
@@ -163,6 +179,10 @@ section {
             }
             button {
                 align-self: flex-end;
+            }
+            @media #{$media-mobile} {
+                width: 100%;
+                margin: 1rem 0px;
             }
         }
     }

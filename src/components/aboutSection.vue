@@ -9,6 +9,7 @@
                     <h3>About Us</h3>
                     <h3>What's Our Deal</h3>
                 </div>
+                <img class="mobile_image" src="../assets/images/about_img.png" alt="">
                 <div class="content">
                     <p>
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -28,6 +29,7 @@
 </script>
 
 <style lang="scss" scoped>
+@import "../assets/variables.scss";
 section{
     width: 100%;
     .ab_content {
@@ -44,6 +46,9 @@ section{
         }
         .text_holder {
             width: 40%;
+            .mobile_image {
+                display: none;
+            }
             .intro_header {
                 display: flex;
                 flex-direction: column;
@@ -63,6 +68,18 @@ section{
                 flex-direction: column;
                 margin-top: 0.75rem;
                 gap: 0.75rem;
+            }
+        }
+        @media #{$media-mobile} {
+            .img_holder {
+                display: none;
+            }
+            .text_holder {
+                margin: 1rem 0px;
+                width: 100%;
+                .mobile_image {
+                    display: block;
+                }
             }
         }
     }
