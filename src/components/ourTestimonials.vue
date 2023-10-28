@@ -9,25 +9,25 @@
             <div class="testimonial_box">
                 <img src="../assets/icons/testimonial_icon.svg" alt="">
                 <p>
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
+                    A very big thank you to Dukeempireconsult...I am forever grateful to you all for all you effort....It has really really been a long journey.
                 </p>
                 <div class="author">
                     <svg xmlns="http://www.w3.org/2000/svg" width="11" height="4" viewBox="0 0 11 4" fill="none">
                         <path d="M0 2H11" stroke="#00BA21" stroke-width="3"/>
                     </svg>
-                    <p>Emmanuel</p>
+                    <p>James kobina</p>
                 </div>
             </div>
             <div class="testimonial_box">
                 <img src="../assets/icons/testimonial_icon.svg" alt="">
                 <p>
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
+                    it was indeed an awesome experience emarking on this journey ,My joy knows no bound because my livelong dream has been actialised.
                 </p>
                 <div class="author">
                     <svg xmlns="http://www.w3.org/2000/svg" width="11" height="4" viewBox="0 0 11 4" fill="none">
                         <path d="M0 2H11" stroke="#00BA21" stroke-width="3"/>
                     </svg>
-                    <p>Emmanuel</p>
+                    <p>Gbenga Victor</p>
                 </div>
             </div>
         </div>

@@ -19,7 +19,7 @@
                 <div class="slider">
                     <img src="../assets/icons/career_icon.svg" alt="" class="icon">
                     <h5 class="header">
-                        Career counselling
+                        Ticket Reservation
                     </h5>
                     <p class="content">
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
@@ -28,7 +28,7 @@
                 <div class="slider">
                     <img src="../assets/icons/career_icon.svg" alt="" class="icon">
                     <h5 class="header">
-                        Career counselling
+                        Hotel Booking
                     </h5>
                     <p class="content">
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
@@ -37,7 +37,7 @@
                 <div class="slider">
                     <img src="../assets/icons/career_icon.svg" alt="" class="icon">
                     <h5 class="header">
-                        Career counselling
+                        Student Visa
                     </h5>
                     <p class="content">
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
@@ -46,7 +46,7 @@
                 <div class="slider">
                     <img src="../assets/icons/career_icon.svg" alt="" class="icon">
                     <h5 class="header">
-                        Career counselling
+                        Resume Review
                     </h5>
                     <p class="content">
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
@@ -109,6 +109,18 @@ section {
         margin: 1.5rem;
         position: relative;
         overflow: hidden;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+        /* Hide scrollbar for Chrome, Safari and Opera */
+        .example::-webkit-scrollbar {
+            display: none;
+        }
+
+        /* Hide scrollbar for IE, Edge and Firefox */
+        .example {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+        }
         @media #{$media-mobile} {
             width: 95%;
             margin: 1rem auto;
