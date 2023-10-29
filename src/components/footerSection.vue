@@ -4,7 +4,7 @@
             <div class="text-side">
                 <h2>Duke's Empire</h2>
                 <p>
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
+                    DEC Empire: Your academic and career partner, simplifying the global journey. With precise info and personalized support, we empower your success in education and career prospects worldwide.
                 </p>
                 <div class="subscription-box">
                     <label for="subForm">GET IN TOUCH</label>

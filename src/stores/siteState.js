@@ -16,12 +16,13 @@ import emailjs from "emailjs-com";
 export const useSiteState = defineStore({
   id: "site-state",
   state: () => ({
+    isProcessing: false,
     testimonials: [],
     works: [],
     messages: [],
     mailData: {
       service_ID: "service_fi4qgkt",
-      template_ID: "template_0d9nawx",
+      template_ID: "template_fth64gi",
       userID: "oQZzfcu7Gb4R0firr",
     },
   }),
@@ -90,7 +91,8 @@ export const useSiteState = defineStore({
         }
       }
     },
-    async sendMail(name, subject, message, email, location, target) {
+    async sendMail(subject, email, message, number, name, target) {
+     
       this.isProcessing = true;
       if (subject != "" && message != "" && email != "") {
         try {
@@ -105,8 +107,8 @@ export const useSiteState = defineStore({
               subject: subject,
               message: message,
               reply_to: email,
-              sender_location: location,
-              to_name: "Daniel",
+              number: number,
+              to_name: "Dec Empire",
             }
           );
           // save to database
@@ -122,11 +124,12 @@ export const useSiteState = defineStore({
           this.emailSent = true;
           // save to database
         } catch (error) {
-          this.isProcessing = false;
+          console.log(error);
           // this.emailNotSent = true;
           const toast = useToast();
           toast.error("email not sent please try again");
-          console.log(error);
+        } finally {
+          this.isProcessing = false;
         }
       } else {
         this.isProcessing = false;

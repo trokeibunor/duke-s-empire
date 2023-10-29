@@ -73,6 +73,7 @@ section {
             flex-direction: row;
             align-items: center;
             justify-content: center;
+            align-items: stretch;
             padding: 2rem 0px;
             gap: 2rem;
             .testimonial_box {

@@ -12,10 +12,10 @@
                 <img class="mobile_image" src="../assets/images/about_img.png" alt="">
                 <div class="content">
                     <p>
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        DEC Empire is your dedicated global academic and career partner. Our mission is to simplify your journey, offering accurate information and personalized support to empower your success. We're committed to providing the guidance and resources needed for your education and career opportunities worldwide.
                     </p>
                     <p>
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        With DEC Empire by your side, you can confidently navigate the complexities of the academic and professional landscape, ensuring you have the tools to excel and reach your goals in the global arena.
                     </p>
                     <button class="cta">SEND US A MAIL</button>
                 </div>

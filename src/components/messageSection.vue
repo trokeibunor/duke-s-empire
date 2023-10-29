@@ -10,18 +10,18 @@
                     <p>Contact us  via the Email box or use the quick chat option, <br> let’s get started on your journey together.</p>
                 </div>
             </div>
-            <div class="form">
+            <form class="form" @submit.prevent="sendMail">
                 <div class="form-row">
                     <div class="form-control">
                         <div class="label">First Name</div>
                         <div class="input">
-                            <input type="text" placeholder="First Name">
+                            <input type="text" placeholder="First Name" v-model="contactForm.firstName">
                         </div>
                     </div>
                     <div class="form-control">
                         <div class="label">Last Name</div>
                         <div class="input">
-                            <input type="text" placeholder="Last Name">
+                            <input type="text" placeholder="Last Name" v-model="contactForm.lastName">
                         </div>
                     </div>
                 </div>
@@ -29,13 +29,13 @@
                     <div class="form-control">
                         <div class="label">Email</div>
                         <div class="input">
-                            <input type="email" placeholder="First Name">
+                            <input type="email" placeholder="Email" v-model="contactForm.email">
                         </div>
                     </div>
                     <div class="form-control">
                         <div class="label">Phone Number</div>
                         <div class="input">
-                            <input type="number" placeholder="Last Name">
+                            <input type="number" placeholder="" v-model="contactForm.number">
                         </div>
                     </div>
                 </div>
@@ -45,19 +45,19 @@
                     </div>
                     <div class="form-row">
                         <div class="radio-control">
-                            <input type="radio" name="subject" id="">
+                            <input type="radio" value="Counselling" name="subject" v-model="contactForm.subject" id="">
                             <label for="counselling">Counselling</label>
                         </div>
                         <div class="radio-control">
-                            <input type="radio" name="subject" id="">
+                            <input type="radio" value="Resume Review" name="subject" v-model="contactForm.subject" id="">
                             <label for="counselling">Resume Review</label>
                         </div>
                         <div class="radio-control">
-                            <input type="radio" name="subject" id="">
+                            <input type="radio" value="Student Visa" name="subject"  v-model="contactForm.subject" id="">
                             <label for="counselling">Student Visa</label>
                         </div>
                         <div class="radio-control">
-                            <input type="radio" name="subject" id="">
+                            <input type="radio" value="Relocation" name="subject"  v-model="contactForm.subject" id="">
                             <label for="counselling">Relocation</label>
                         </div>
                     </div>
@@ -66,16 +66,48 @@
                     <div class="label">
                         Message
                     </div>
-                    <textarea name="message" id=""></textarea>
+                    <textarea name="message" id=""  v-model="contactForm.message"></textarea>
                 </div>
-                <button>SEND MESSAGE</button>
-            </div>
+                <button type="submit">SEND MESSAGE</button>
+            </form>
         </div>
     </section>
 </template>
 
 <script setup>
-
+import { useSiteState } from '../stores/siteState';
+import { reactive } from "vue";
+const contactForm = reactive({
+  firstName: "",
+  lastName: "",
+  number: "",
+  subject: "",
+  email: "",
+  message: "",
+});
+const siteState = useSiteState();
+function sendMail(e) {
+    let name = contactForm.firstName + " " + contactForm.lastName;
+    try {
+        siteState.sendMail(
+            contactForm.subject,
+            contactForm.email,
+            contactForm.message,
+            contactForm.number,
+            name,
+            e.target
+        );
+    } catch (error) {
+        console.log(error);
+    } finally {
+        contactForm.firstName = "";
+  contactForm.lastName = "";
+  contactForm.email = "";
+  contactForm.message = "";
+  contactForm.number = "";
+  contactForm.number = "";
+    }
+}
 </script>
 
 <style lang="scss" scoped>
