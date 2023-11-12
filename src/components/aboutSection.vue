@@ -17,7 +17,7 @@
                     <p>
                         With DE Consult by your side, you can confidently navigate the complexities of the academic and professional landscape, ensuring you have the tools to excel and reach your goals in the global arena.
                     </p>
-                    <button class="cta">SEND US A MAIL</button>
+                    <a href="/#contact" class="cta">TALK TO US</a>
                 </div>
             </div>
         </div>
@@ -30,6 +30,15 @@
 
 <style lang="scss" scoped>
 @import "../assets/variables.scss";
+.cta {
+    height: fit-content;
+    width: fit-content;
+    border-radius: 4px;
+    padding: 12px 24px !important;
+    background-color: #102C03 !important;
+    color: white !important;
+    font-weight: 600 !important;
+}
 section{
     width: 100%;
     .ab_content {
