@@ -13,7 +13,7 @@
                         Career counselling
                     </h5>
                     <p class="content">
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                        We connect students to their strategic study partners.  We offer educational services for Undergraduate and  postgraduate student
                     </p>
                 </div>
                 <div class="slider">
@@ -22,7 +22,7 @@
                         Ticket Reservation
                     </h5>
                     <p class="content">
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                        We help students with ticket reservations to the country of their choice with no hassle making the process stressfree
                     </p>
                 </div>
                 <div class="slider">
@@ -31,7 +31,7 @@
                         Hotel Booking
                     </h5>
                     <p class="content">
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                        We help with hotel booking for foreign countries, ensuring the whole relocation process is smoother for our candidates
                     </p>
                 </div>
                 <div class="slider">
@@ -40,7 +40,7 @@
                         Student Visa
                     </h5>
                     <p class="content">
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                        We help with procurement of student visa to different destinations for study, what are you waiting for contact us.
                     </p>
                 </div>
             </div>

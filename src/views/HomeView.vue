@@ -31,11 +31,10 @@ const siteState = useSiteState()
        </div>
        <div class="sub_text">
         <p>
-          We are a team of professionals who are passionate about helping you get to your potential.
-          We are a team of professionals who are passionate about helping you get to your potential.
-        </p>
-       </div>
-       <button class="cta">GET STARTED</button>
+          DE Consult is a student placement agency that helps student to achieve their lifelong goals of studying abroad.
+        </p>  
+        </div>
+       <a href="/#contact" class="cta">MESSAGE US</a>
       </div>
       <div class="image_section">
         <img src="../assets/images/hero_img.png" alt="">
@@ -88,6 +87,15 @@ main {
         gap: 1rem;
         .sub_text {
           width: 80%;
+        }
+        .cta {
+          height: fit-content;
+          width: fit-content;
+          border-radius: 4px;
+          padding: 12px 24px !important;
+          background-color: #102C03 !important;
+          color: white !important;
+          font-weight: 600 !important;
         }
       }
       @media #{$media-mobile} {
