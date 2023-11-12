@@ -43,15 +43,6 @@
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
                     </p>
                 </div>
-                <div class="slider">
-                    <img src="../assets/icons/career_icon.svg" alt="" class="icon">
-                    <h5 class="header">
-                        Resume Review
-                    </h5>
-                    <p class="content">
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-                    </p>
-                </div>
             </div>
         </div>
         <img src="../assets/images/ellipse-17.png" alt="" class="display_img">

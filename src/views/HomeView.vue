@@ -44,9 +44,9 @@ const siteState = useSiteState()
    </section>
    <!-- -->
   </main>
-  <serviceSection/> 
-  <aboutSection/>
-  <messageSection/>
+  <serviceSection id="services"/> 
+  <aboutSection id="about"/>
+  <messageSection id="contact"/>
   <ourTestimonial/>
   <footerSection/>
 </template>
