@@ -19,25 +19,25 @@
                 <div class="slider">
                     <img src="../assets/icons/career_icon.svg" alt="" class="icon">
                     <h5 class="header">
-                        Ticket Reservation
+                        Admission process
                     </h5>
                     <p class="content">
-                        We help students with ticket reservations to the country of their choice with no hassle making the process stressfree
+                        We help students with processing admission to the country of their choice with no hassle making the process stressfree
                     </p>
                 </div>
                 <div class="slider">
                     <img src="../assets/icons/career_icon.svg" alt="" class="icon">
                     <h5 class="header">
-                        Hotel Booking
+                        Relocation
                     </h5>
                     <p class="content">
-                        We help with hotel booking for foreign countries, ensuring the whole relocation process is smoother for our candidates
+                        We help with relocation to foreign countries, ensuring the whole relocation process is smoother for our candidates
                     </p>
                 </div>
                 <div class="slider">
                     <img src="../assets/icons/career_icon.svg" alt="" class="icon">
                     <h5 class="header">
-                        Student Visa
+                        Visa Processing
                     </h5>
                     <p class="content">
                         We help with procurement of student visa to different destinations for study, what are you waiting for contact us.
