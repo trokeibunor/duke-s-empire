@@ -8,7 +8,7 @@
                 <a href="/#contact" class="nav_item">Contact Us</a>
             </div>
             <p class="nav_logo">
-                Duke's Empire
+                DE Consult
             </p>
             <div class="social_icons">
                 <ul>
