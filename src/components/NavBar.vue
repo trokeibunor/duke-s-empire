@@ -13,18 +13,18 @@
             <div class="social_icons">
                 <ul>
                     <li>
-                        <a href="https://www.facebook.com/dukes.empire/" target="_blank">
+                        <a href="https://www.facebook.com/profile.php?id=100064204384160&mibextid=ZbWKwL" target="_blank">
                             <img src="../assets/icons/facebook_icon.svg" alt="">
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/dukes_empire/" target="_blank">
+                        <a href="https://instagram.com/dukeempireconsult?utm_source=qr&igshid=OGU0MmVlOWVjOQ==" target="_blank">
                             <img src="../assets/icons/instagram.svg" alt="">
                         </a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/dukes_empire" target="_blank">
-                            <img src="../assets/icons/linkedIn_icon.svg" alt="">
+                        <a href="https://www.tiktok.com/@deconline.ng" target="_blank">
+                            <img src="../assets/icons/tik_tok_icon.svg" alt="">
                         </a>
                     </li>
                 </ul>

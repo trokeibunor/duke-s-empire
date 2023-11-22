@@ -13,11 +13,13 @@
                         <input type="submit" value="SEND">
                     </form>
                 </div>
+                <p>Location: 6  Prince Bode Oluwo St, Mende,Maryland,Lagos</p>
             </div>
-            <div class="map">
+            <div class="location">
 
             </div>
         </div>
+        <p style="width: 100; text-align: center;">2023 &copy; Duke Consult Empire </p>
     </footer>
 </template>
 
