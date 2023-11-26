@@ -4,7 +4,7 @@
             <div class="text-side">
                 <h2>Duke's Empire</h2>
                 <p>
-                    DEC Empire: Your academic and career partner, simplifying the global journey. With precise info and personalized support, we empower your success in education and career prospects worldwide.
+                    DE Consult: Your academic and career partner, simplifying the global journey. With precise info and personalized support, we empower your success in education and career prospects worldwide.
                 </p>
                 <div class="subscription-box">
                     <label for="subForm">GET IN TOUCH</label>
@@ -14,6 +14,8 @@
                     </form>
                 </div>
                 <p>Location: 6  Prince Bode Oluwo St, Mende,Maryland,Lagos</p>
+                <a mailto="dukeempireconsult@gmail.com">dukeempireconsult@gmail.com</a>
+                <a tel="+2349071048261">09071048261</a>
             </div>
             <div class="location">
 
