@@ -2,7 +2,7 @@
     <footer>
         <div class="content">
             <div class="text-side">
-                <h2>Duke's Empire Consult</h2>
+                <h2>DE Consult</h2>
                 <p>
                     DE Consult: Your academic and career partner, simplifying the global journey. With precise info and personalized support, we empower your success in education and career prospects worldwide.
                 </p>
