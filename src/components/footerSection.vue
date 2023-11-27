@@ -2,7 +2,7 @@
     <footer>
         <div class="content">
             <div class="text-side">
-                <h2>Duke's Empire</h2>
+                <h2>Duke's Empire Consult</h2>
                 <p>
                     DE Consult: Your academic and career partner, simplifying the global journey. With precise info and personalized support, we empower your success in education and career prospects worldwide.
                 </p>
@@ -13,12 +13,40 @@
                         <input type="submit" value="SEND">
                     </form>
                 </div>
-                <p>Location: 6  Prince Bode Oluwo St, Mende,Maryland,Lagos</p>
-                <a mailto="dukeempireconsult@gmail.com">dukeempireconsult@gmail.com</a>
-                <a tel="+2349071048261">09071048261</a>
             </div>
             <div class="location">
-
+                <h2>Contact Us:</h2>
+                <div>
+                    <p>Location</p>
+                    <p>6  Prince Bode Oluwo St, Mende,Maryland,Lagos</p>
+                </div>
+                <div>
+                    <p>Email Us:</p>
+                    <a href="mailto:dukeempireconsult@gmail.com">dukeempireconsult@gmail.com</a>
+                </div>
+                <div>
+                    <p>Call us:</p>
+                    <a href="tel:+2349071048261">09071048261</a>
+                </div>
+                <div class="social_icons">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=100064204384160&mibextid=ZbWKwL" target="_blank">
+                            <img src="../assets/icons/facebook_white.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com/dukeempireconsult?utm_source=qr&igshid=OGU0MmVlOWVjOQ==" target="_blank">
+                            <img src="../assets/icons/instagram_white.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.tiktok.com/@deconline.ng" target="_blank">
+                            <img src="../assets/icons/tic_tok_white.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
             </div>
         </div>
         <p style="width: 100; text-align: center;">2023 &copy; Duke Consult Empire </p>
@@ -83,11 +111,28 @@ footer {
                 }
             }
         }
+        .location {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            h2 {
+                font-family: 'Playfair Display', serif;
+                font-size: 24px;
+                font-weight: 600;
+            }
+            .social_icons {
+                    ul {
+                        display: flex;
+                        flex-direction: row;
+                    }
+                }
+        }
         .map {
             width: 50%;
         }
         @media #{$media-mobile} {
             flex-direction: column;
+            gap: 1rem;
           .text-side {
             width: 100%;
             .subscription-box,p {

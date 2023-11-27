@@ -31,7 +31,7 @@ const siteState = useSiteState()
        </div>
        <div class="sub_text">
         <p>
-          DE Consult is a student placement agency that helps student to achieve their lifelong goals of studying abroad.
+          Duke Empire Consult is a student placement agency that helps student to achieve their lifelong goals of studying abroad.
         </p>  
         </div>
        <a href="/#contact" class="cta">MESSAGE US</a>
